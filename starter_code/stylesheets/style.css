@@ -5,3 +5,48 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+p {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5b5e6d;
+}
+
+li {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5b5e6d;
+}
+
+span {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5b5e6d;
+}
+
+@media screen {
+  max-width: 768px;
+}
+
+.nav-bar {
+  display: flex;
+  height: 200px;
+}
+
+.first-list {
+  display: none;
+}
+
+.first-list {
+  align-items: flex-end;
+}
+
+.box-header {
+}
+
+.box-main {
+  background-color: #f4f3f4;
+}
+.box-footer {
+  background-color: #f4f3f4;
+}
